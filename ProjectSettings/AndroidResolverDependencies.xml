@@ -1,0 +1,36 @@
+<dependencies>
+  <packages>
+    <package>com.google.firebase:firebase-analytics:17.0.1</package>
+    <package>com.google.firebase:firebase-analytics-unity:6.3.0</package>
+    <package>com.google.firebase:firebase-app-unity:6.3.0</package>
+    <package>com.google.firebase:firebase-common:18.0.0</package>
+    <package>com.google.firebase:firebase-iid:[19.0.1]</package>
+    <package>com.google.firebase:firebase-messaging:19.0.1</package>
+    <package>com.google.firebase:firebase-messaging-unity:6.3.0</package>
+    <package>com.tapdaq.sdk:TapdaqAdMobAdapter:7.4.1</package>
+    <package>com.tapdaq.sdk:Tapdaq-BaseSDK:7.4.1</package>
+    <package>com.tapdaq.sdk:TapdaqChartboostAdapter:7.4.1</package>
+    <package>com.tapdaq.sdk:TapdaqFANAdapter:7.4.1</package>
+    <package>com.tapdaq.sdk:TapdaqIronsourceAdapter:7.4.1</package>
+    <package>com.tapdaq.sdk:TapdaqUnityAdsAdapter:7.4.1</package>
+    <package>com.tapdaq.sdk:Tapdaq-UnityBridge:7.4.1</package>
+  </packages>
+  <files>
+    <file>Assets/Firebase/m2repository/com/google/firebase/firebase-analytics-unity/6.3.0/firebase-analytics-unity-6.3.0.aar</file>
+    <file>Assets/Firebase/m2repository/com/google/firebase/firebase-app-unity/6.3.0/firebase-app-unity-6.3.0.aar</file>
+    <file>Assets/Firebase/m2repository/com/google/firebase/firebase-messaging-unity/6.3.0/firebase-messaging-unity-6.3.0.aar</file>
+  </files>
+  <settings>
+    <setting name="androidAbis" value="armeabi-v7a" />
+    <setting name="bundleId" value="com.test.tacticalshooting" />
+    <setting name="explodeAars" value="True" />
+    <setting name="gradleBuildEnabled" value="True" />
+    <setting name="gradleTemplateEnabled" value="True" />
+    <setting name="installAndroidPackages" value="True" />
+    <setting name="packageDir" value="Assets\Plugins\Android" />
+    <setting name="patchAndroidManifest" value="True" />
+    <setting name="patchMainTemplateGradle" value="True" />
+    <setting name="projectExportEnabled" value="False" />
+    <setting name="useJetifier" value="False" />
+  </settings>
+</dependencies>
